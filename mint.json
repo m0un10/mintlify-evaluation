@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Maestro",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -18,10 +18,14 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Sign In",
+    "url": "https://www.maestro.io"
   },
   "tabs": [
+    {
+      "name": "SDK Reference",
+      "url": "sdk-reference"
+    },
     {
       "name": "API Reference",
       "url": "api-reference"
@@ -30,11 +34,17 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "installation", "theming"]
     },
     {
-      "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "group": "Components",
+      "pages": [
+        "components/ClientVideoPlayer", 
+        "components/SwitchCameraComponent", 
+        "components/PanelNavigation", 
+        "components/AdminVideoPublisher", 
+        "components/SiteView"
+      ]
     },
     {
       "group": "API Documentation",
